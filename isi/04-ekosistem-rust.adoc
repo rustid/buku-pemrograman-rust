@@ -1,0 +1,9 @@
+== Ekosistem Rust
+
+[source,rust]
+----
+include::../{sourcedir}/bab-01/ferris/src/main.rs[]
+----
+<1> Penjelasan 1
+<2> Penjelasan 2
+

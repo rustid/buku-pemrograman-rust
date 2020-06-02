@@ -1,0 +1,63 @@
+= Pemrograman Rust
+Bambang Purnomosidi D. P. <bambangpdp@gmail.com>
+v0.0.1, 2020-06-02
+:doctype: book
+:toc:
+:source-highlighter: rouge
+:sectnums:
+:description: Dokumen ini merupakan buku hasil kerjasama komunitas Rust Indonesia \
+              yang membahas tentang dasar-dasar pemrograman Rust, eksosistem Rust \
+              serta penggunaan Rust untuk berbagai keperluan pengembangan software.
+:sourcedir: src
+:includedir: isi
+:imagesdir: gambar
+:chapter-label: Bab
+
+[preface]
+= Pengantar
+
+Sebuah buku tentang https://www.rust-lang.org[Bahasa Pemrograman Rust].
+
+=== Penghargaan
+
+Kami mengucapkan terima kasih atas partisipasi dari rekan-rekan semua.
+
+= Bagian I: Pengenalan dan Ekosistem
+
+[partintro]
+--
+Bagian ini menjelaskan tentang gambaran umum dari Rust serta persiapan untuk membangun aplikasi
+menggunakan Rust
+--
+
+include::{includedir}/01-tentang-rust.adoc[]
+
+include::{includedir}/02-instalasi-rust.adoc[]
+
+include::{includedir}/03-ide-untuk-rust.adoc[]
+
+include::{includedir}/04-ekosistem-rust.adoc[]
+
+= Bagian II: Sintaksis dan Semantik dari Rust
+
+[partintro]
+--
+Bagian ini menjelaskan tentang sintaksis dari bahasa pemrograman Rust
+--
+
+include::{includedir}/05-variabel-komentar.adoc[]
+
+include::{includedir}/06-tipe-data.adoc[]
+
+include::{includedir}/07-fungsi.adoc[]
+
+include::{includedir}/08-pengendali-aliran.adoc[]
+
+include::{includedir}/09-struktur-data.adoc[]
+
+include::{includedir}/10-ownership.adoc[]
+
+include::{includedir}/11-enum.adoc[]
+
+include::{includedir}/12-pembandingan-pola.adoc[]
+

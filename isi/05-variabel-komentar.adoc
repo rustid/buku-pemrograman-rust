@@ -1,0 +1,3 @@
+== Variabel dan Komentar
+
+Var dan komentar
