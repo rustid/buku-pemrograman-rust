@@ -1,4 +1,44 @@
 == Instalasi Rust
 
-Instalasi Rust
+Untuk menggunakan Rust, tentu saja anda harus melakukan instalasi terhadap Rust dan ekosistem yang
+bisa digunakan untuk mendukung proses membangun software menggunakan Rust. Bab ini membahas tentang
+berbagai cara yang bisa digunakan untuk mulai menggunakan Rust.
+
+=== Rilis Rust
+
+Rust mempunyai 3 kategori rilis:
+
+1.  _Stable_: rilis stabil, dengan _test_ yang dilakukan secara menyeluruh.
+2.  _Beta_: rilis versi ini merupakan rilis yang disiapkan untuk menjadi versi stabil berikutnya..
+3.  _Nightly_: rilis versi ini merupakan rilis yang berisi berbagai eksperimen yang mungkin bisa
+masuk ke versi stabil berikutnya (setelah melalui versi _Beta_), maupun tidak akan pernah dimasukkan
+ke rilis Rust.
+
+Saat membangun aplikasi, pemrogram bebas untuk menggunakan kategori rilis manapun. Meskipun
+demikian, dianjurkan untuk menggunakan versi _Stable_ karena fitur yang ada di dalamnya adalah
+fitur-fitur yang sudah stabil sehingga memudahkan pemrogram untuk me-_maintain_ aplikasi yang
+dikembangkan.
+
+Untuk semua rilis tersebut, Rust menggunakan pedoman yang disebut dengan
+https://semver.org/[*Semantic Versioning*]. Dengan menggunakan pedoman ini, setiap rilis Rust
+terdiri atas 3 bagian:
+
+1.  MAJOR: rilis dengan perubahan API (_Application Programming Intergace_) yang tidak kompatibel
+dengan versi MAJOR sebelumnya.
+2.  MINOR: rilis dengan penambahan fungsionalitas yang kompatibel dengan versi sebelumnya.
+3.  PATCH: rilis dengan perbaikan terhadap _bugs_ yang kompatibel dengan versi sebelumnya.
+
+Sebagai contoh, versi 1.44.0 dari versi Rust berisi Rust dengan semua API yang kompatibel dengan
+versi 1.x.x sebelumnya. Angka 44 berarti penambahan fungsionalitas yang bersifat kompatibel dengan
+versi penambahan fungsionalitas sebelumnya. Angka 0 berarti sama sekali belum ada perubahan
+perbaikan _bug_ untuk versi 1.44 tersebut.
+
+=== Rust Playground
+
+Jika kebutuhan kita hanya untuk mencoba beberapa bagian kode sumber, maka kita cukup hanya
+menggunakan https://play.rust-lang.org/[*Rust Playground*] saja. Setelah mengakses URL tersebut,
+kita bisa menuliskan kode sumber dan menjalankan kode sumber tersebut tanpa perlu melakukan
+instalasi peranti pengembangan Rust.
+
+image::bab-02/rust-playground.png[]
 
