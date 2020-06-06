@@ -65,5 +65,5 @@ include::{includedir}/10-ownership.adoc[]
 
 include::{includedir}/11-enum.adoc[]
 
-include::{includedir}/12-pembandingan-pola.adoc[]
+include::{includedir}/12-pattern-matching.adoc[]
 
