@@ -3,6 +3,8 @@ Bambang Purnomosidi D. P. <bambangpdp@gmail.com>
 v0.0.1, 2020-06-02
 :doctype: book
 :toc:
+:toc-title: Daftar Isi
+:table-caption: Tabel
 :source-highlighter: rouge
 :sectnums:
 :description: Dokumen ini merupakan buku hasil kerjasama komunitas Rust Indonesia \
