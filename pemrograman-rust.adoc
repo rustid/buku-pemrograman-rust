@@ -36,34 +36,78 @@ Bagian ini menjelaskan tentang gambaran umum dari Rust serta persiapan untuk mem
 menggunakan Rust
 --
 
-include::{includedir}/01-tentang-rust.adoc[]
+include::{includedir}/01-01-tentang-rust.adoc[]
 
-include::{includedir}/02-instalasi-rust.adoc[]
+include::{includedir}/01-02-instalasi-rust.adoc[]
 
-include::{includedir}/03-ide-untuk-rust.adoc[]
+include::{includedir}/01-03-ide-untuk-rust.adoc[]
 
-include::{includedir}/04-ekosistem-rust.adoc[]
+include::{includedir}/01-04-ekosistem-rust.adoc[]
 
 = Bagian II: Sintaksis dan Semantik dari Rust
 
 [partintro]
 --
-Bagian ini menjelaskan tentang sintaksis dari bahasa pemrograman Rust
+Bagian ini menjelaskan tentang sintaksis dari bahasa pemrograman Rust. Beberapa bagian sudah
+membahas tentang pustaka standar sesuai pada materi pembahasan. Jika merupakan pustaka standar,
+bagian tersebut akan diberi catatan.
 --
 
-include::{includedir}/05-variabel-komentar.adoc[]
+include::{includedir}/02-01-variabel-komentar.adoc[]
 
-include::{includedir}/06-tipe-data.adoc[]
+include::{includedir}/02-02-tipe-data.adoc[]
 
-include::{includedir}/07-fungsi.adoc[]
+include::{includedir}/02-03-fungsi.adoc[]
 
-include::{includedir}/08-pengendali-aliran.adoc[]
+include::{includedir}/02-04-pengendali-aliran.adoc[]
 
-include::{includedir}/09-struktur-data.adoc[]
+include::{includedir}/02-05-struktur-data.adoc[]
 
-include::{includedir}/10-ownership.adoc[]
+include::{includedir}/02-06-ownership.adoc[]
 
-include::{includedir}/11-enum.adoc[]
+include::{includedir}/02-07-enum.adoc[]
 
-include::{includedir}/12-pattern-matching.adoc[]
+include::{includedir}/02-08-pattern-matching.adoc[]
+
+= Bagian III: Pustaka Standar Rust
+
+[partintro]
+--
+Bagian ini menjelaskan berbagai pustaka standar dari Rust. Pustaka standar merupakan API yang
+menjadi bagian dari Rust dan bisa diakses setelah kita melakukan instalasi Rust tanpa perlu
+melakukan instalasi tambahan lain. Bagian ini tidak menjelaskan secara rinci semua pustaka standar,
+tetapi hanya beberapa saja. Setelah itu, pembaca bisa melihat pada dokumentasi lengkap dari pustaka
+standar dari Rust untuk mengetahui lebih lanjut.
+--
+
+include::{includedir}/03-01-mengelola-string.adoc[]
+
+include::{includedir}/03-02-pemrograman-konkuren.adoc[]
+
+include::{includedir}/03-03-net.adoc[]
+
+include::{includedir}/03-04-path.adoc[]
+
+include::{includedir}/03-05-sistem-file.adoc[]
+
+include::{includedir}/03-06-operasi-io.adoc[]
+
+include::{includedir}/03-07-mengelola-proses.adoc[]
+
+= Bagian IV: Topik Khusus
+
+[partintro]
+--
+Bagian ini menjelaskan berbagai topik pemrograman khusus yang bisa dilakukan dengan menggunakan
+Rust.
+--
+
+include::{includedir}/04-01-akses-basis-data.adoc[]
+
+include::{includedir}/04-02-pemrograman-web.adoc[]
+
+include::{includedir}/04-03-antarmuka-teks.adoc[]
+
+include::{includedir}/04-02-antarmuka-grafis.adoc[]
+
 
