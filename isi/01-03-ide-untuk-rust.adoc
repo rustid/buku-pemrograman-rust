@@ -1,3 +1,19 @@
 == IDE untuk Rust
 
-IDE Rust
+IDE (_Integrated Development Environment_) adalah software yang digunakan sebagai peranti
+pengembangan terintegrasi. IDE sangat penting dalam membangun aplikasi. Produktivitas pemrogram
+biasanya sangat tergantung dari kepiawaiannya menggunakan IDE. Bab ini membahas tentang IDE yang
+bisa digunakan untk membangun aplikasi menggunakan Rust. Ada dua software dasar yang akan dijelaskan
+dan digunakan dalam bab ini, yaitu:
+
+1.  Vim
+2.  Visual Studio Code / VSCodium
+
+=== Vim
+
+
+
+=== Visual Studio Code / VSCodium
+
+
+

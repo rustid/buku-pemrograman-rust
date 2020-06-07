@@ -1,0 +1,23 @@
+== Mengenal Rust
+
+Bab ini membahas tentang gambaran umum dari bahasa pemrograman serta peranti pengembangan Rust.
+Dengan mempelajari bab ini, pembaca diharapkan bisa memahami gambaran umum dari Rust sehingga bisa
+memberikan semacam pemahaman terhadap ruang lingkup masalah-masalah pemrograman yang bisa
+diselesaikan menggunakan Rust serta posisi Rust di antara berbagai bahasa pemrograman dan peranti
+pengembangan lainnya.
+
+image::bab-01/web-rust-lang-org.png[]
+
+=== Sejarah Singkat Rust
+
+=== Paradigma Pemrograman Rust
+
+=== Lisensi Rust
+
+=== Software yang Dibangun Menggunakan Rust
+
+=== Kelebihan dan Kekurangan Rust
+
+=== Domain Masalah dari Rust
+
+

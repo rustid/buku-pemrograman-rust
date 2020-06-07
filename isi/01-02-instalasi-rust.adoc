@@ -2,7 +2,9 @@
 
 Untuk menggunakan Rust, tentu saja anda harus melakukan instalasi terhadap Rust dan ekosistem yang
 bisa digunakan untuk mendukung proses membangun software menggunakan Rust. Bab ini membahas tentang
-berbagai cara yang bisa digunakan untuk mulai menggunakan Rust.
+berbagai cara yang bisa digunakan untuk mulai menggunakan Rust. Selain itu, di bab ini juga akan
+dibahas tentang berbagai peranti pengembangan yang lazim digunakan sebagai hasil dari instalasi
+serta pengenalan penggunaannya.
 
 === Rilis Rust
 
@@ -41,4 +43,24 @@ kita bisa menuliskan kode sumber dan menjalankan kode sumber tersebut tanpa perl
 instalasi peranti pengembangan Rust.
 
 image::bab-02/rust-playground.png[]
+
+=== Instalasi Rust
+
+=== Memahami Ekosistem Rust
+
+=== Pengenalan Cargo
+
+==== Inisialisasi Proyek
+
+
+==== Membangun Proyek
+
+
+==== Membersihkan Hasil Kompilasi
+
+
+==== Antara Debug dan Release
+
+
+==== Menjalankan Hasil
 

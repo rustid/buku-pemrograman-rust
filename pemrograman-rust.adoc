@@ -38,7 +38,7 @@ Bagian ini menjelaskan tentang gambaran umum dari Rust serta persiapan untuk mem
 menggunakan Rust
 --
 
-include::{includedir}/01-01-tentang-rust.adoc[]
+include::{includedir}/01-01-mengenal-rust.adoc[]
 
 include::{includedir}/01-02-instalasi-rust.adoc[]
 

@@ -1,9 +1,30 @@
 == Ekosistem Rust
 
-[source,rust]
-----
-include::../{sourcedir}/bab-01/ferris/src/main.rs[]
-----
-<1> Penjelasan 1
-<2> Penjelasan 2
+Mempelajari suatu bahasa pemrograman, khususnya dalam rangka untuk membangun aplikasi, tidak hanya
+selesai dengan mempelajari unsur bahasanya saja. Di luar itu, biasanya masih banyak unsur pendukung
+yang membentuk suatu ekosistem. Dengan memahami ekosistem Rust, seorang pemrogram yang menggunakan
+Rust akan relatif lebih mudah untuk menggunakan berbagai macam sumber daya untuk menyelesaikan
+masalah pemrograman yang dihadapi.
+
+=== Paket (_Crates_)
+
+
+=== _Crates_ yang Bermanfaat Bagi Pemrogram Rust
+
+
+=== Berbagai Web untuk Melacak Status dalam Domain Tertentu
+
+Komunitas membangun berbagai situs Web untuk melacak kesiapan Rust dalam domain tertentu. Situs Web
+tersebut biasanya dikenal dengan nama **Are we X yet?** dengan **X** adalah domain tertentu
+tersebut. Daftar dari **Are we X yet?** bisa dilihat di https://wiki.mozilla.org/Areweyet[]
+
+=== Mengikuti Perkembangan Rust
+
+Ada berbagai sumber daya di Internet yang bisa digunakan untuk mengikuti perkembangan dari Rust
+serta ekosistemnya.
+
+1.  *This Week in Rust*, bisa diakses di https://this-week-in-rust.org/[]
+2.  *Twitter*, berbagai _account_ yang bisa diikuti:
+    * https://twitter.com/rustlang[]: Twitter resmi dari Rust
+    * _Hashtag_ #rustlang di Twitter
 

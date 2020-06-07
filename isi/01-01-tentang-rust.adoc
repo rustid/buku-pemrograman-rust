@@ -1,3 +1,0 @@
-== Tentang Rust
-
-image::bab-01/web-rust-lang-org.png[]
