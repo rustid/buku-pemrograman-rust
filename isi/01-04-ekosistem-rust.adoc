@@ -11,15 +11,24 @@ masalah pemrograman yang dihadapi.
 
 === _Crates_ yang Bermanfaat Bagi Pemrogram Rust
 
-==== Evcxr
+==== Evcxr (https://github.com/google/evcxr/tree/master/evcxr_repl[])
 
 _Crate_ ini digunakan sebagai REPL (_Read-Eval-Print-Loop_) untuk Rust. Untuk instalasi:
 
 .Evcxr
-[#src-listing]
 [source,bash]
 ----
 cargo install evcxr_repl
+----
+
+==== IRust (https://github.com/sigmaSd/IRust[])
+
+_Crate_ ini juga digunakan sebagai REPL untuk Rust. Untuk instalasi:
+
+.IRust
+[source,bash]
+----
+cargo install irust
 ----
 
 === Berbagai Web untuk Melacak Status dalam Domain Tertentu
