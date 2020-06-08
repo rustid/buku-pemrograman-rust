@@ -10,9 +10,22 @@ image::bab-01/web-rust-lang-org.png[]
 
 === Sejarah Singkat Rust
 
+1.  Rust pertama kali dibuat oleh salah seorang pegawai dari Mozilla yang bernama _Graydon Hoare_ sekitar tahun 2006. Saat itu, Graydon membuat bahasa pemrograman baru dan _compiler_ dari bahasa pemrograman tersebut menggunakan *OCaml*. 
+2.  Mozilla mulai men-sponsori dan mendukung Rust untuk keperluan internal pada tahun 2009 (diumumkan tahun 2010).
+3.  Tahun 2010, pengembangan Rust menggunakan OCaml dihentikan, digantikan dengan _self-hosting
+compiler_ (Rust dibuat dengan menggunakan Rust). Tahun 2011, Rust berhasil digunakan untuk
+mengkompilasi dirinya sendiri. Saat itu, Rust menggunakan _LLVM_ sbagai _compiler backend_.
+4.  Versi stabil pertama (versi 1.0.0) dari Rust berhasil dirilis pada tanggal 15 Mei 2015.
+5.  Setelah itu, Rust menetapkan pola rilis pasti setiap 6 minggu. 
+
 === Paradigma Pemrograman Rust
 
 === Lisensi Rust
+
+Semua artifak dari Rust (_compiler_, logo, situs Web, dan lain-lain) mempunyai lisensi ganda:
+
+1.  _MIT License_
+2.  _Apache License_ - Versi 2.0
 
 === Software yang Dibangun Menggunakan Rust
 
