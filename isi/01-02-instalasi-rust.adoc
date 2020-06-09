@@ -54,6 +54,112 @@ include::../{sourcedir}/bab-02/hello-plain/hello.rs[]
 <1> Bagian yang dieksekusi saat program hasil kompilasi dipanggil.
 <2> Isi dari program.
 
+[source,bash]
+.rustup
+----
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+info: downloading installer
+
+Welcome to Rust!
+
+This will download and install the official compiler for the Rust
+programming language, and its package manager, Cargo.
+
+It will add the cargo, rustc, rustup and other commands to
+Cargo's bin directory, located at:
+
+  /home/zaky/.cargo/bin
+
+This can be modified with the CARGO_HOME environment variable.
+
+Rustup metadata and toolchains will be installed into the Rustup
+home directory, located at:
+
+  /home/zaky/.rustup
+
+This can be modified with the RUSTUP_HOME environment variable.
+
+This path will then be added to your PATH environment variable by
+modifying the profile file located at:
+
+  /home/zaky/.profile
+
+You can uninstall at any time with rustup self uninstall and
+these changes will be reverted.
+
+Current installation options:
+
+
+   default host triple: x86_64-unknown-linux-gnu
+     default toolchain: stable
+               profile: default
+  modify PATH variable: yes
+
+1) Proceed with installation (default)
+2) Customize installation
+3) Cancel installation
+>1
+
+info: profile set to 'default'
+info: default host triple is x86_64-unknown-linux-gnu
+info: syncing channel updates for 'stable-x86_64-unknown-linux-gnu'
+info: latest update on 2020-06-04, rust version 1.44.0 (49cae5576 2020-06-01)
+info: downloading component 'cargo'
+  4.9 MiB /   4.9 MiB (100 %)   1.2 MiB/s in  4s ETA:  0s
+info: downloading component 'clippy'
+  1.9 MiB /   1.9 MiB (100 %)   1.1 MiB/s in  1s ETA:  0s
+info: downloading component 'rust-docs'
+ 12.2 MiB /  12.2 MiB (100 %)   1.1 MiB/s in 11s ETA:  0s
+info: downloading component 'rust-std'
+ 17.6 MiB /  17.6 MiB (100 %)   1.1 MiB/s in 15s ETA:  0s
+info: downloading component 'rustc'
+ 60.2 MiB /  60.2 MiB (100 %)   1.1 MiB/s in 54s ETA:  0s
+info: downloading component 'rustfmt'
+  3.2 MiB /   3.2 MiB (100 %)   1.4 MiB/s in  2s ETA:  0s
+info: installing component 'cargo'
+info: installing component 'clippy'
+info: installing component 'rust-docs'
+ 12.2 MiB /  12.2 MiB (100 %)   7.4 MiB/s in  1s ETA:  0s
+info: installing component 'rust-std'
+info: installing component 'rustc'
+ 60.2 MiB /  60.2 MiB (100 %)  13.5 MiB/s in  6s ETA:  0s
+info: installing component 'rustfmt'
+info: default toolchain set to 'stable'
+
+  stable installed - rustc 1.44.0 (49cae5576 2020-06-01)
+
+
+Rust is installed now. Great!
+
+To get started you need Cargo's bin directory ($HOME/.cargo/bin) in your PATH
+environment variable. Next time you log in this will be done
+automatically.
+
+To configure your current shell run source $HOME/.cargo/env
+$
+----
+
+Setelah proses instalasi tersebut, ada file berisi variabel lingkungan (_environment variables_)
+yang harus diaktifkan, yaitu *$HOME/.cargp/env*. Berikut adalah kondisi sebelum diaktifkan dan
+setelah diaktifkan menggunakan perintah *source*:
+
+[source,bash]
+.cargo/env
+----
+$ rustc
+-bash: rustc: perintah tidak ditemukan
+$ cargo
+-bash: cargo: perintah tidak ditemukan
+$ source .cargo/env
+$ rustc --version
+rustc 1.44.0 (49cae5576 2020-06-01)
+$ cargo --version
+cargo 1.44.0 (05d080faa 2020-05-06)
+$
+----
+
+Secara default, isi dari file *.cargo/env* sudah diletakkan pada file *.profile* sehingga akan aktif
+setiap login.
 
 === Memahami Ekosistem Rust
 
