@@ -46,6 +46,15 @@ image::bab-02/rust-playground.png[]
 
 === Instalasi Rust
 
+[source,rust]
+.src/bab-02/hello-plain/hello.rs
+----
+include::../{sourcedir}/bab-02/hello-plain/hello.rs[]
+----
+<1> Bagian yang dieksekusi saat program hasil kompilasi dipanggil.
+<2> Isi dari program.
+
+
 === Memahami Ekosistem Rust
 
 === Pengenalan Cargo
