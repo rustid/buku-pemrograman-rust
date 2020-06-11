@@ -2,8 +2,8 @@
 
 Buku ini merupakan buku hasil kerjasama dari komunitas Rust Indonesia. Silahkan membaca [panduan untuk berkontribusi](kontribusi.md) jika anda ingin berkontribusi. Bagian-bagian buku (bab dan sub-bab) ini ditandai dengan tanda-tanda berikut:
 
-1.  **wip**: *Work In Progress** - bagian ini masih dalam proses pengerjaan.
-2.  **wip-nr**: *Work In Progress - Need Review** - bagian ini dianggap sudah selesai (draft) tetapi masih perlu review. 
+1.  **wip**: *Work In Progress* - bagian ini masih dalam proses pengerjaan.
+2.  **wip-nr**: *Work In Progress - Need Review* - bagian ini dianggap sudah selesai (draft) tetapi masih perlu review. 
 3.  **kosong**: Bab atau subbab yang tidak ditandai apa-apa berarti sudah cukup dianggap stabil dan dianggap selesai.
 
 ## Typeset
