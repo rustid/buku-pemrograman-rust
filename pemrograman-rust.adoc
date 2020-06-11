@@ -106,10 +106,11 @@ Rust.
 
 include::{includedir}/04-01-akses-basis-data.adoc[]
 
-include::{includedir}/04-02-pemrograman-web.adoc[]
-
 include::{includedir}/04-03-antarmuka-teks.adoc[]
 
 include::{includedir}/04-02-antarmuka-grafis.adoc[]
 
+include::{includedir}/04-04-pemrograman-web.adoc[]
+
+include::{includedir}/04-05-serialisasi-data.adoc[]
 
