@@ -1,2 +1,5 @@
-== Pemrograman Konkuren
+== Pemrograman Konkuren (wip)
+
+=== Tentang Bab Ini
+
 

@@ -1,4 +1,6 @@
-== Instalasi Rust
+== Instalasi Rust (wip)
+
+=== Tentang Bab Ini (wip)
 
 Untuk menggunakan Rust, tentu saja anda harus melakukan instalasi terhadap Rust dan ekosistem yang
 bisa digunakan untuk mendukung proses membangun software menggunakan Rust. Bab ini membahas tentang
@@ -6,7 +8,7 @@ berbagai cara yang bisa digunakan untuk mulai menggunakan Rust. Selain itu, di b
 dibahas tentang berbagai peranti pengembangan yang lazim digunakan sebagai hasil dari instalasi
 serta pengenalan penggunaannya.
 
-=== Rilis Rust
+=== Rilis Rust (wip-nr)
 
 Rust mempunyai 3 kategori rilis:
 
@@ -35,7 +37,9 @@ versi 1.x.x sebelumnya. Angka 44 berarti penambahan fungsionalitas yang bersifat
 versi penambahan fungsionalitas sebelumnya. Angka 0 berarti sama sekali belum ada perubahan
 perbaikan _bug_ untuk versi 1.44 tersebut.
 
-=== Rust Playground
+=== Edisi Rust (wip)
+
+=== Rust Playground (wip)
 
 Jika kebutuhan kita hanya untuk mencoba beberapa bagian kode sumber, maka kita cukup hanya
 menggunakan https://play.rust-lang.org/[*Rust Playground*] saja. Setelah mengakses URL tersebut,
@@ -44,7 +48,7 @@ instalasi peranti pengembangan Rust.
 
 image::bab-02/rust-playground.png[]
 
-=== Instalasi Rust
+=== Instalasi Rust (wip)
 
 [source,rust]
 .src/bab-02/hello-plain/hello.rs
@@ -161,21 +165,21 @@ $
 Secara default, isi dari file *.cargo/env* sudah diletakkan pada file *.profile* sehingga akan aktif
 setiap login.
 
-=== Memahami Ekosistem Rust
+=== Memahami Ekosistem Rust (wip)
 
-=== Pengenalan Cargo
+=== Pengenalan Cargo (wip)
 
-==== Inisialisasi Proyek
-
-
-==== Membangun Proyek
+==== Inisialisasi Proyek (wip)
 
 
-==== Membersihkan Hasil Kompilasi
+==== Membangun Proyek (wip)
 
 
-==== Antara Debug dan Release
+==== Membersihkan Hasil Kompilasi (wip)
 
 
-==== Menjalankan Hasil
+==== Antara Debug dan Release (wip)
+
+
+==== Menjalankan Hasil (wip)
 

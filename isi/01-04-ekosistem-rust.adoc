@@ -1,4 +1,6 @@
-== Ekosistem Rust
+== Ekosistem Rust (wip)
+
+=== Tentang Bab Ini (wip-nr)
 
 Mempelajari suatu bahasa pemrograman, khususnya dalam rangka untuk membangun aplikasi, tidak hanya
 selesai dengan mempelajari unsur bahasanya saja. Di luar itu, biasanya masih banyak unsur pendukung
@@ -6,12 +8,12 @@ yang membentuk suatu ekosistem. Dengan memahami ekosistem Rust, seorang pemrogra
 Rust akan relatif lebih mudah untuk menggunakan berbagai macam sumber daya untuk menyelesaikan
 masalah pemrograman yang dihadapi.
 
-=== Paket (_Crates_)
+=== Paket (_Crates_) (wip)
 
 
-=== _Crates_ yang Bermanfaat Bagi Pemrogram Rust
+=== _Crates_ yang Bermanfaat Bagi Pemrogram Rust (wip)
 
-==== Evcxr (https://github.com/google/evcxr/tree/master/evcxr_repl[])
+==== Evcxr (https://github.com/google/evcxr/tree/master/evcxr_repl[]) (wip)
 
 _Crate_ ini digunakan sebagai REPL (_Read-Eval-Print-Loop_) untuk Rust. Untuk instalasi:
 
@@ -21,7 +23,7 @@ _Crate_ ini digunakan sebagai REPL (_Read-Eval-Print-Loop_) untuk Rust. Untuk in
 cargo install evcxr_repl
 ----
 
-==== IRust (https://github.com/sigmaSd/IRust[])
+==== IRust (https://github.com/sigmaSd/IRust[]) (wip)
 
 _Crate_ ini juga digunakan sebagai REPL untuk Rust. Untuk instalasi:
 
@@ -31,13 +33,13 @@ _Crate_ ini juga digunakan sebagai REPL untuk Rust. Untuk instalasi:
 cargo install irust
 ----
 
-=== Berbagai Web untuk Melacak Status dalam Domain Tertentu
+=== Berbagai Web untuk Melacak Status dalam Domain Tertentu (wip)
 
 Komunitas membangun berbagai situs Web untuk melacak kesiapan Rust dalam domain tertentu. Situs Web
 tersebut biasanya dikenal dengan nama **Are we X yet?** dengan **X** adalah domain tertentu
 tersebut. Daftar dari **Are we X yet?** bisa dilihat di https://wiki.mozilla.org/Areweyet[]
 
-=== Mengikuti Perkembangan Rust
+=== Mengikuti Perkembangan Rust (wip)
 
 Ada berbagai sumber daya di Internet yang bisa digunakan untuk mengikuti perkembangan dari Rust
 serta ekosistemnya.

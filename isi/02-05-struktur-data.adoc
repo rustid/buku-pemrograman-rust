@@ -1,4 +1,6 @@
-== Struktur Data
+== Struktur Data (wip)
+
+=== Tentang Bab Ini (wip)
 
 Struktur data
 

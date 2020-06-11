@@ -1,4 +1,6 @@
-== IDE untuk Rust
+== IDE untuk Rust (wip)
+
+=== Tentang Bab Ini (wip-nr)
 
 IDE (_Integrated Development Environment_) adalah software yang digunakan sebagai peranti
 pengembangan terintegrasi. IDE sangat penting dalam membangun aplikasi. Produktivitas pemrogram
@@ -9,11 +11,11 @@ dan digunakan dalam bab ini, yaitu:
 1.  Vim
 2.  Visual Studio Code / VSCodium
 
-=== Vim
+=== Vim (wip)
 
 
 
-=== Visual Studio Code / VSCodium
+=== Visual Studio Code / VSCodium (wip)
 
 
 
