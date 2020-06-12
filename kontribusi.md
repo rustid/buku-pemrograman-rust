@@ -23,7 +23,20 @@ Semua isi teks Asciidoc ada di direktori [isi](isi/). Sesuaikan dengan nama file
 ### Jika kontribusi anda mengandung gambar
 
 * Letakkan gambar di direktori [gambar](gambar/) sesuai dengan bab yang anda buat. Jika belum ada direktori untuk bab, silahkan dibuat dengan ketentuan penamaan `bab-nn` dengan `nn` adalah angka bab (misal `bab-01` jika untuk `Bab 1`).
-* Pada dokumen Asciidoc, gunakan `image::bab-01/web-rust-lang-org.png[]` untuk menampilkan gambar.
+* Pada dokumen Asciidoc, gunakan potongan `asciidoctor` berikut ini untuk menampilkan gambar.
+
+```asciidoc
+[#gbr-web-rust]
+.Web Peranti Pengembangan Rust
+[link=https://www.rust-lang.org]
+image::bab-01/web-rust-lang-org.png[]
+```
+
+* Jika akan membuat link *cross reference* yang mengacu ke gambar tersebut:
+
+```asciidoc
+... Informasi tentang Rust bisa diperoleh di <<#gbr-web-rust>> ...
+```
 
 ### Jika kontribusi anda mengandung kode sumber
 

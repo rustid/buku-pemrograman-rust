@@ -8,6 +8,26 @@ memberikan semacam pemahaman terhadap ruang lingkup masalah-masalah pemrograman 
 diselesaikan menggunakan Rust serta posisi Rust di antara berbagai bahasa pemrograman dan peranti
 pengembangan lainnya.
 
+=== Apakah Rust Itu? (wip)
+
+Secara umum, biasanya para pemrograman akan menyebut *Rust* untuk segala macam peranti pengembangan
+yang terkait dengan Rust. Pada dasarnya, saat membicarakan tentang peranti pengembangan, ada
+beberapa komponen sebagai berikut:
+
+1.  Spesifikasi bahasa pemrograman
+2.  Implementasi bahasa pemrograman dalam bentuk _compiler_ / _interpreter_
+3.  _Package Manager_ yang digunakan untuk mengelola pustaka / paket yang diperlukan saat dilakukan
+proses kompilasi maupun untuk instalasi berbagai peranti pendukung yang dibutuhkan pemrogram saat
+membangun aplikasi.
+4.  _Build Tool_ yang digunakan untuk mengelola proses kompilasi serta hasil akhirnya.
+
+Hal tersebut juga berlaku untuk *Rust*. Meskipun seringkali hanya disebut *Rust*, biasanya sudah
+mengacu ke setidaknya spesifikasi bahasa pemrograman Rust serta _compiler_ dari Rust. Informasi
+tentang Rust bisa diperoleh di <<#gbr-web-rust>>.
+
+[#gbr-web-rust]
+.Web Peranti Pengembangan Rust
+[link=https://www.rust-lang.org]
 image::bab-01/web-rust-lang-org.png[]
 
 === Sejarah Singkat Rust (wip)
