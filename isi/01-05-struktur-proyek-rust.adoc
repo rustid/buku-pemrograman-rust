@@ -55,3 +55,101 @@ $
 $
 ....
 
+Berikut adalah penjelasan tentang struktur direktori beserta berbagai file yang ada pada proyek
+tersebut:
+
+1.  **Cargo.toml**: File ini berisi metadata, yaitu data tentang proyek Rust yang aktif.
+2.  **src**: Direktori ini digunakan untuk menyimpan berbagai *source code* Rust. Pemrogram Rust
+akan membuat *source code* di direktori ini.
+
+=== Proses Build (wip)
+
+Setelah memperoleh struktur direktori default seperti di atas, pemrograman akan meneruskan proses
+coding dengan menambahkan *source code*, pustaka, dan lain-lain. Setelah itu, akan dilakukan proses
+*build* untuk mengkompilasi *source code*. Proses build ini akan menghasilkan banyak direktori dan
+file sesuai dengan versi *build*. Ada 2 versi *build* yang bisa dihasilkan:
+
+1.  Versi *debug*: merupakan versi default, dilakukan jika kita tidak menggunakan parameter apapun
+saat melakukan proses *build*. Hasil dari proses ini merupakan hasil yang masih menyertakan komponen
+untuk *debugging* pada hasil proses *build*.
+2.  Versi *release*: merupakan versi *build* yang dilakukan jika menyertakan *--release* sebagai
+parameter *cargo build*. Hasil dari proses ini merupakan hasil yang siap untuk dirilis dengan
+optimasi siap untuk dijalankan *end user*. Versi ini tidak menyertakan komponen untuk *debugging*. 
+
+....
+$ cargo build
+    Updating crates.io index
+   Compiling libc v0.2.71
+   Compiling bitflags v1.2.1
+   Compiling gimli v0.21.0
+   Compiling cfg-if v0.1.10
+   Compiling unicode-width v0.1.7
+   Compiling rustc-demangle v0.1.16
+   Compiling object v0.19.0
+   Compiling ansi_term v0.11.0
+   Compiling strsim v0.8.0
+   Compiling vec_map v0.8.2
+   Compiling smallvec v0.4.5
+   Compiling textwrap v0.11.0
+   Compiling atty v0.2.14
+   Compiling addr2line v0.12.1
+   Compiling clap v2.33.1
+   Compiling backtrace v0.3.48
+   Compiling error-chain v0.10.0
+   Compiling ferris-says v0.1.2
+   Compiling binproses v0.1.0 (/home/bpdp/kerjaan/git-repos/oldstager/current/github/rustid/buku-pemrograman-rust/src/01-05/proses/binproses)
+    Finished dev [unoptimized + debuginfo] target(s) in 18.56s
+$ 
+....
+
+Versi rilis:
+
+....
+$ cargo build --release
+   Compiling libc v0.2.71
+   Compiling gimli v0.21.0
+   Compiling bitflags v1.2.1
+   Compiling object v0.19.0
+   Compiling rustc-demangle v0.1.16
+   Compiling unicode-width v0.1.7
+   Compiling cfg-if v0.1.10
+   Compiling strsim v0.8.0
+   Compiling ansi_term v0.11.0
+   Compiling vec_map v0.8.2
+   Compiling smallvec v0.4.5
+   Compiling textwrap v0.11.0
+   Compiling atty v0.2.14
+   Compiling clap v2.33.1
+   Compiling addr2line v0.12.1
+   Compiling backtrace v0.3.48
+   Compiling error-chain v0.10.0
+   Compiling ferris-says v0.1.2
+   Compiling binproses v0.1.0 (/home/bpdp/kerjaan/git-repos/oldstager/current/github/rustid/buku-pemrograman-rust/src/01-05/proses/binproses)
+    Finished release [optimized] target(s) in 12.21s
+$
+....
+
+Setelah proses ini, isi dari direktori proyek akan berubah. Jumlah file akan berbeda-beda untuk tiap
+proyek karena masalah dependensi, tetapi pada umumnya, struktur sama:
+
+....
+target/
+├── debug
+│   ├── binproses
+│   ├── binproses.d
+│   ├── build
+│   ├── deps
+│   ├── examples
+│   └── incremental
+└── release
+    ├── binproses
+    ├── binproses.d
+    ├── build
+    ├── deps
+    ├── examples
+    └── incremental
+
+10 directories, 4 files
+....
+
+
