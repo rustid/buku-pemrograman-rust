@@ -38,15 +38,15 @@ image::bab-01/web-rust-lang-org.png[]
 ... Informasi tentang Rust bisa diperoleh di <<#gbr-web-rust>> ...
 ```
 
-### Jika kontribusi anda mengandung kode sumber
+### Jika kontribusi anda mengandung *source code*
 
-* letakkan kode sumber tersebut di direktori [src](src/) sesuai dengan bab yang anda buat. JIka belum ada direktori untuk bab, silahkan dibuat dengan ketentuan penamaan `bab-nn` dengan `nn` adalah angka bab (misal `bab-01` jika untuk `Bab 1`).
-* Pada dokumen Asciidoc, gunakan kode sumber berikut:
+* letakkan *source code* tersebut di direktori [src](src/) sesuai dengan bab yang anda buat. JIka belum ada direktori untuk bab, silahkan dibuat dengan ketentuan penamaan `xx-yy` dengan `xx` adalah angka bagian dan `nn` adalah angka bab ke nn pada bagian tersebut (lihat pola penamaan file asciidoc dari [isi](isi/) - misal `01-01` jika untuk `Bagian 1 - Bab ke 1 pada bagian tersebut`. Nama proyek sebaiknya sesuai dengan tujuan proyek.
+* Pada dokumen Asciidoc, gunakan *source code* berikut:
 
 ```
 [source,rust]
 ----
-include::../{sourcedir}/bab-01/ferris/src/main.rs[]
+include::../{sourcedir}/01-01/ferris/src/main.rs[]
 ----
 <1> Penjelasan 1
 <2> Penjelasan 2
@@ -54,7 +54,8 @@ include::../{sourcedir}/bab-01/ferris/src/main.rs[]
 
 **Catatan**: 
 
-1.  Bagian yang penting di atas adalah `/bab-01/ferris/src/main.rs` yang menunjukkan letak dari kode sumber yang anda acu.
+1.  Bagian yang penting di atas adalah `/01-01/ferris/src/main.rs` yang menunjukkan letak dari *source code* yang anda acu.
 2.  Asciidoc memungkinkan adanya *callout*, gunakan jika anda ingin menjelaskan baris tertentu.
-3.  Usahakan setiap satu kode sumber yang cukup kompleks, dibuat lengkap menggunakan `cargo`. Pada saat mengirimkan *pull request*, `cargo clean` lebih dulu setelah anda pastikan bisa berjalan dengan baik. Hapus direktori `.git` pada proyek cargo tersebut.
+3.  Usahakan setiap satu *source code* yang cukup kompleks, dibuat lengkap menggunakan `cargo`. Pada saat mengirimkan *pull request*, `cargo clean` lebih dulu setelah anda pastikan bisa berjalan dengan baik atau sertakan [.gitignore](https://github.com/github/gitignore/blob/master/Rust.gitignore). Direktori yang anda kirimkan tersebut bukan direktori yang ada di GitHub - konsekuensinya, tidak ada direktori `.git`.
+
 
