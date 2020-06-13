@@ -22,8 +22,10 @@ membangun aplikasi.
 4.  _Build Tool_ yang digunakan untuk mengelola proses kompilasi serta hasil akhirnya.
 
 Hal tersebut juga berlaku untuk *Rust*. Meskipun seringkali hanya disebut *Rust*, biasanya sudah
-mengacu ke setidaknya spesifikasi bahasa pemrograman Rust serta _compiler_ dari Rust. Informasi
-tentang Rust bisa diperoleh di <<#gbr-web-rust>>.
+mengacu ke setidaknya spesifikasi bahasa pemrograman Rust serta _compiler_ dari Rust. Pada buku ini,
+penyebutan *Rust* akan mengacu pada spesifikasi bahasa pemrograman serta peranti standar untuk
+*compiler* maupun pustaka standar yang disertakan pada saat instalasi Rust. Informasi tentang Rust
+bisa diperoleh di <<#gbr-web-rust>>.
 
 [#gbr-web-rust]
 .Web Peranti Pengembangan Rust
@@ -72,4 +74,16 @@ mengembangkan sistem Discord.
 
 === Domain Masalah dari Rust (wip)
 
+Rust bisa digunakan untuk menyelesaikan berbagai masalah pada berbagai domain. Secara umum, Rust
+bisa digunakan untuk pembuatan software di aras rendah (*system programming*) maupun di berbagai
+masalah pemrograman aras atas. Beberapa domain masalah yang bisa diselesaikan oleh Rust antara lain:
+
+1.  **System Programming**
+2.  Akses ke peranti keras (*interfacing*)
+3.  CLI (*Command Line Interface*)
+4.  Backend
+5.  Aplikasi Web
+6.  Akses ke berbagai basis data
+7.  GUI (*Graphical User Interface*)
+8.  Cloud
 
