@@ -47,6 +47,8 @@ include::{includedir}/01-03-ide-untuk-rust.adoc[]
 
 include::{includedir}/01-04-ekosistem-rust.adoc[]
 
+include::{includedir}/01-05-struktur-proyek-rust.adoc[]
+
 = Bagian II: Sintaksis dan Semantik dari Rust
 
 [partintro]

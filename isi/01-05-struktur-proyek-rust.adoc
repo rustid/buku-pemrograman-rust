@@ -1,0 +1,6 @@
+== Struktur Proyek Rust (wip)
+
+=== Tentang Bab Ini (wip)
+
+Bab ini membahas tentang strukutur direktori dan file yang ada pada suatu proyek Rust. 
+
