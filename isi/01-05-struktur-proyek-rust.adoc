@@ -2,5 +2,56 @@
 
 === Tentang Bab Ini (wip)
 
-Bab ini membahas tentang strukutur direktori dan file yang ada pada suatu proyek Rust. 
+Bab ini membahas tentang strukutur direktori dan file yang ada pada suatu proyek Rust. Direktori
+serta beberapa file default yang ada di dalamnya merupakan direktori serta file yang dibuat dengan
+menggunakan *cargo*. Bab ini menjelaskan tentang struktur proyek yang dibuat dengan menggunakan
+*cargo*.
+
+=== Cargo dan Pembuatan Direktori serta File-File Proyek (wip)
+
+Secara umum, *cargo* bisa digunakan untuk membuat 2 tipe proyek Rust:
+
+1.  *Binary executable*: jika hasil dari proyek digunakan dengan cara dieksekusi / dijalankan secara
+langsung.
+2.  *Library*: jikha hasil dari proyek dimaksudkan sebagai pustaka yang bisa digunakan oleh
+pemrogram Rust.
+
+Untuk memulai membuat proyek menggunakan Rust, kita bisa menggunakan cargo dengan perintah-perintah
+berikut ini:
+
+[source,bash]
+....
+$ cargo new bindefault
+     Created binary (application) `bindefault` package
+$ cargo new --lib libdefault
+     Created library `libdefault` package
+$
+....
+
+Hasil dari perintah-perintah di atas adalah 2 direktori:
+
+1.  **bindefault**: untuk proyek yang menghasilkan *binary executable*. 
+2.  **libdefault**: untuk proyek yang menghasilkan pustaka yang bisa digunakan para proyek
+pengembangan software aplikasi berbasis Rust lainnya.
+
+Perbedaan dari kedua tipe proyek tersebut bisa kita lihat dari struktur serta file-file yang ada
+pada direktori tersebut:
+
+[source,bash]
+....
+$
+.
+├── bindefault
+│   ├── Cargo.toml
+│   └── src
+│       └── main.rs
+└── libdefault
+    ├── Cargo.toml
+    └── src
+        └── lib.rs
+
+4 directories, 4 files
+
+$
+....
 
