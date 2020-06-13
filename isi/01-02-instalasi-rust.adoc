@@ -46,14 +46,14 @@ menggunakan https://play.rust-lang.org/[*Rust Playground*] saja. Setelah mengaks
 kita bisa menuliskan kode sumber dan menjalankan kode sumber tersebut tanpa perlu melakukan
 instalasi peranti pengembangan Rust.
 
-image::bab-02/rust-playground.png[]
+image::01-02/rust-playground.png[]
 
 === Instalasi Rust (wip)
 
 [source,rust]
-.src/bab-02/hello-plain/hello.rs
+.src/01-02/hello-plain/hello.rs
 ----
-include::../{sourcedir}/bab-02/hello-plain/hello.rs[]
+include::../{sourcedir}/01-02/hello-plain/hello.rs[]
 ----
 <1> Bagian yang dieksekusi saat program hasil kompilasi dipanggil.
 <2> Isi dari program.

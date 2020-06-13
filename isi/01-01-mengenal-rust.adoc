@@ -30,7 +30,7 @@ bisa diperoleh di <<#gbr-web-rust>>.
 [#gbr-web-rust]
 .Web Peranti Pengembangan Rust
 [link=https://www.rust-lang.org]
-image::bab-01/web-rust-lang-org.png[]
+image::01-01/web-rust-lang-org.png[]
 
 === Sejarah Singkat Rust (wip)
 
