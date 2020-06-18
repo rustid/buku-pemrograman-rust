@@ -22,7 +22,7 @@ Semua isi teks Asciidoc ada di direktori [isi](isi/). Sesuaikan dengan nama file
 
 ### Jika kontribusi anda mengandung gambar
 
-* Letakkan gambar di direktori [gambar](gambar/) sesuai dengan bab yang anda buat. Jika belum ada direktori untuk bab, silahkan dibuat dengan ketentuan penamaan `bab-nn` dengan `nn` adalah angka bab (misal `bab-01` jika untuk `Bab 1`).
+* Letakkan gambar di direktori [gambar](gambar/) sesuai dengan bab yang anda buat. Jika belum ada direktori untuk bab, silahkan dibuat dengan ketentuan penamaan `xx-yy` dengan `xx` adalah angka bagian dan `yy` adalah angka bab (misal `01-01` jika untuk `Bagian 1 - Bab 1`).
 * Pada dokumen Asciidoc, gunakan potongan `asciidoctor` berikut ini untuk menampilkan gambar.
 
 ```asciidoc

@@ -10,6 +10,7 @@ dan digunakan dalam bab ini, yaitu:
 
 1.  Vim
 2.  Visual Studio Code / VSCodium
+3.  Eclipse
 
 === Vim (wip)
 
@@ -18,4 +19,86 @@ dan digunakan dalam bab ini, yaitu:
 === Visual Studio Code / VSCodium (wip)
 
 
+=== Eclipse (wip)
+
+https://eclipse.org[Eclipse Foundation] juga mempunyai proyek yang didedikasikan untuk membuat IDE
+Rust dengan basis IDE Eclipse untuk membangun aplikasi menggunakan Rust. Untuk memperoleh software
+ini, silahkan akses ke https://www.eclipse.org/downloads/packages/ dan pilih
+<<#gbr-web-ecipse-rust>>. Untuk menjalankan ini, anda seharusnya sudah mempunyai JDK (Java
+Development Kit) terinstall di komputer anda.
+
+[#gbr-web-eclipse-rust]
+.Paket Eclipse for Rust Developers
+[link=https://www.eclipse.org/downloads/packages]
+image::01-03/01-download.png[]
+
+Setelah itu, ekstrak hasil download:
+
+[source,bash]
+----
+$ tar -xvf eclipse-rust-2020-06-R-linux-gtk-x86_64.tar.gz 
+eclipse/
+eclipse/p2/
+eclipse/p2/org.eclipse.equinox.p2.engine/
+eclipse/p2/org.eclipse.equinox.p2.engine/profileRegistry/
+eclipse/p2/org.eclipse.equinox.p2.engine/profileRegistry/epp.package.rust.profile/
+eclipse/p2/org.eclipse.equinox.p2.engine/profileRegistry/epp.package.rust.profile/1592224392705.profile.gz
+eclipse/p2/org.eclipse.equinox.p2.engine/profileRegistry/epp.package.rust.profile/.lock
+eclipse/p2/org.eclipse.equinox.p2.engine/profileRegistry/epp.package.rust.profile/.data/
+...
+...
+...
+eclipse/dropins/
+eclipse/eclipse.ini
+eclipse/configuration/
+eclipse/configuration/org.eclipse.equinox.simpleconfigurator/
+eclipse/configuration/org.eclipse.equinox.simpleconfigurator/bundles.info
+eclipse/configuration/config.ini
+eclipse/configuration/org.eclipse.update/
+eclipse/configuration/org.eclipse.update/platform.xml
+$
+----
+
+Hasil ekstrak adalah direktori *eclipse* dengan isi sebagai berikut:
+
+[source,bash]
+----
+$ ls -la
+total 372
+drwxr-xr-x  8 bpdp bpdp   4096 Jun 15 19:33 ./
+drwxr-xr-x  3 bpdp bpdp   4096 Jun 18 21:57 ../
+-rw-r--r--  1 bpdp bpdp 101678 Jun 15 19:33 artifacts.xml
+drwxr-xr-x  4 bpdp bpdp   4096 Jun 15 19:33 configuration/
+drwxr-xr-x  2 bpdp bpdp   4096 Jun 15 19:33 dropins/
+-rwxr-xr-x  1 bpdp bpdp  61176 Jun  4 22:24 eclipse*
+-rw-r--r--  1 bpdp bpdp    630 Jun 15 19:33 eclipse.ini
+-rw-r--r--  1 bpdp bpdp     61 Jun  4 20:56 .eclipseproduct
+drwxr-xr-x 49 bpdp bpdp   4096 Jun 15 19:33 features/
+-rwxr-xr-x  1 bpdp bpdp 140566 Jun  4 22:24 icon.xpm*
+drwxr-xr-x  4 bpdp bpdp   4096 Jun 15 19:33 p2/
+drwxr-xr-x  9 bpdp bpdp  36864 Jun 15 19:33 plugins/
+drwxr-xr-x  2 bpdp bpdp   4096 Jun 15 19:33 readme/
+$
+----
+
+Untuk menjalankan *Eclipse for Rust Developers*, masuk ke direktori hasil ekstrak kemudian eksekusi
+file *eclipse* sebagai berikut:
+
+[source,bash]
+----
+$ cd eclipse
+$ ./eclipse
+----
+
+Setelah *splash screen*, Eclipse akan menanyakan *workspace* tempat menyimpan berbagai proyek Rust
+seperti pada gambar <<#gbr-eclipse-start>>. Isikan seperti yang anda kehendaki (bebas), setelah itu,
+klik pada *Launch*, maka akan dimunculkan <<#gbr-main-window-eclipse>>.
+
+[#gbr-eclipse-start]
+.Meneteapkan *workspace* untuk Eclipse for Rust Developers
+image::01-03/02-start-eclipse.png[]
+
+[#gbr-main-window-eclipse]
+.Tampilan pembuka Eclipse for Rust Developers
+image::01-03/03-main-window-eclipse.png[]
 
