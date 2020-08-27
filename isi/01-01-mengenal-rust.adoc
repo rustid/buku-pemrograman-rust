@@ -44,6 +44,15 @@ mengkompilasi dirinya sendiri. Saat itu, Rust menggunakan _LLVM_ sbagai _compile
 
 === Paradigma Pemrograman Rust (wip)
 
+Paradigma pemrograman merupakan cara pandang untuk menyelesaikan permasalahan pemrograman. Rust tidak mempunyai suatu paradigma pemrograman spesifik tertentu, tetapi lebih ke arah _multi-paradigm_ atau mempunyai lebih dari satu paradigma. Secara umum, paradigma pemrograman Rust adalah:
+
+1.  Konkuren: mendukung pemrograman secara konkuren, artinya lebih dari satu unit komputasi bisa dieksekusi secara "bersamaan" (secara _overlap_, bergantian - tidak harus menunggu satu unit komputasi selesai baru kemudian satu unit komputasi berikutnya dieksekusi.
+2.  Fungsional: program dikonstruksi dengan menggunakan melakukan komposisi _function_.
+3.  Generik: tipe pada fungsi bisa dispesifikasikan belakangan, bukan pada saat pembuatan fungsi.
+4.  Imperatif: program terdiri atas berbagai _statement_ yang mengubah _state_ dari program (misal dengan memanipulasi variabel, dan lain-lain).
+5.  Terstruktur: program menekankan pada penggunakan berbagai struktur kendali serta subprogram, terutama digunakan untuk _readibility_.
+6.  PBO (Pemrograman Berorientasi Obyek): meski Rust tidak murni bahasa PBO, tetapi Rust mendukung berbagai fitur PBO yang memungkinkan pemrogram untuk mengkonstruksi program dengan pendekatan obyek yang mempunyai karakteristik serta perilaku tertentu dan adanya interaksi antar obyek tersebut dalam menyelesaikan masalah pemrograman.
+
 === Lisensi Rust (wip-nr)
 
 Semua artifak dari Rust (_compiler_, logo, situs Web, dan lain-lain) mempunyai lisensi ganda:

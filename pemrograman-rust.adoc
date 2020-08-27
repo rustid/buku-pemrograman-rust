@@ -1,6 +1,6 @@
 = Pemrograman Rust
 Bambang Purnomosidi D. P. <bambangpdp@gmail.com>
-v0.0.1, 2020-06-02
+v0.0.1-rev-{localdatetime}
 :doctype: book
 :toc:
 :toc-title: Daftar Isi
