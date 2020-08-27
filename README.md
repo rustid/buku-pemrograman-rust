@@ -16,7 +16,7 @@ $ make
 
 ## Hasil Buku
 
-Setelah dikompilasi, hasil buku dalam bentuk PDF ada pada disrektori [hasil](hasil/).
+Setelah dikompilasi, hasil buku dalam bentuk PDF ada pada direktori [hasil](hasil/).
 
 ## Lisensi
 
