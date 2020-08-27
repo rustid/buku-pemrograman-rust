@@ -74,6 +74,10 @@ include::{includedir}/02-07-enum.adoc[]
 
 include::{includedir}/02-08-pattern-matching.adoc[]
 
+include::{includedir}/02-09-reusability.adoc[]
+
+include::{includedir}/02-10-mengelola-error.adoc[]
+
 = Bagian III: Pustaka Standar Rust
 
 [partintro]
